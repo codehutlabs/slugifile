@@ -1,7 +1,6 @@
 language: python
 python:
 - 3.6
-# - 3.7
 install: pip install -U tox-travis
 script: tox
 deploy:
@@ -9,7 +8,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: codehutlabs
   password:
-    secure: vOsbq1W8mGAC9TzgUh80+BvSQOrgjEIWZt9A4uHNsSfQmSpmJ/9crQG5wm0rPOiDv1Arl/w/e53GqnBBg6EcuqNIM2O2l97DEyqiDoWy4jCN7/i9FfBDT9kasUDphSbyQ9gE3/Cf2Bu/tAdKGpjKlLlbQointlWUD5g9MW8crZWHslwCaLxHIWUokMJa73ffzUHfyNs/zKQqvwCMO5sQVahgnP5sWAEXHGzrqs0a1vGiB0V0OXjKtbzbp9quEUIwj11jmYh6e9u6CxkX4LBy/NIzIh/W+ROiMPfE0uTEtOwBPVh2K5cxBvX7dw6oi+4vvV7TORrD+SLy81anirJ1VthrYuRw5E9wiYkNvnqWd8pUP0tUhd9eoyWGHJa/BMMeH9dredLLXlNXwMBNNl3HP6ZYjXQPlRusqVTLBH5hWYyP/w985OJJNJTpK3LvAKAtPL9BqPa7tEivqh1VVLHyjRnqCpEfDTAcAGczef21p3jGpfyIxXhR6+2n3FZ7q/cHK5DBevPR4BvO+Tp/ACAzxt/kv0JF9Aly9OdeAL52XU874J5U5jpas+t/OJw/nd+XnlRA5TN+TX2oTE0NKRDk4FDj3rVsdeK+CylR41cIKzCMWd89Tg7/p9Vfijl/a1IYaoH89B1h4jjiHLAdOuC8pKVbkqMbQKIn0vs1q8/lA2Q=
+    secure: DVNzVGr5TG216DmrLvmsCS6xSwHnmNPm6jQ48c1LTJqgZwP1P2tc6xF1PjRGADihj4F1pZRVAbJSGQLsFnccNPvs0zRtjYn1VDg5Z/QnDApBaMkUMqC1UnOgpJTba+BUokyx+53mFrsT2yQx2P5qBBKXzU0PlXYTPycLl5CAwDbqK7CQedY28nxIf3BRUBoRSl2Uz9fVCs1+WDt97X/PHPMyzdFnfEE1fOAIkfL1926g5MfAuHd25xSlydfk6JfOQYFsGlHC4C9WGMS3WZDU7x1oU8AoE8mz99fRs/fVy+9+QILZYN65DNCwkWTWQV0rYmiqQBn1IlamcEFwR6aaWeXiSsEaWZpyKxWvtCmDa7OEpFay5yDfLXY70D/s4nxxy7j0xJYlrH1RAfEcRgws59gDMwTkEdiSKtEeieO1OB0KgSnQybm/pJnVC6r6q/OhpzhqEOLgAjodL50C+De9BEoTC+yz5+wMWd0NqWsZ8vUwqKAhex5PcH1BRs6uXrkQ1p5h6aJY/c/MRI0e75Xn/RdPIS+3FWn5EgLscMLh2g9+jHHE3+HTve7UbJ9ZrrLLFmQbIvuCetCrT2eT9ZM6INdOHDYZ6ueBSIXA6jKPq3cw8q+KXRYpYj/4E9x8yP3BYLT8w03XR0Suq4fAX/QGrSpHCX/Sr0PC68S3yp4V+8c=
   on:
     tags: true
     repo: codehutlabs/slugifile
