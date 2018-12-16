@@ -4,4 +4,4 @@
 
 __author__ = """Robert Kuzma"""
 __email__ = 'robert@codehut.io'
-__version__ = '0.1.9'
+__version__ = '0.1.10'
