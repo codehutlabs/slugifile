@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "254f95a9afd1563b5775f58e24629d1c9e29780a464af293bbfac845645130d0"
+            "sha256": "b6bc03e530d7862048b0b14823d1f5d174526f8da0ac316e48fb6f831e91577f"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -25,6 +25,10 @@
                 "sha256:7723daf30996db26573176bddcdf5fcb98f66dc70df05c9cb29f2c79b8193245"
             ],
             "version": "==1.2.6"
+        },
+        "slugifile": {
+            "editable": true,
+            "path": "."
         },
         "unidecode": {
             "hashes": [

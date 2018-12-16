@@ -19,3 +19,4 @@ twine = "==1.10.0"
 [packages]
 click = "==6.7"
 python-slugify = "==1.2.6"
+slugifile = {editable = true,path = "."}

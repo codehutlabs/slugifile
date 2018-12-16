@@ -4,13 +4,31 @@
 import sys
 import click
 
+from slugifile.slugifile import slugifile_directory
+
 
 @click.command()
-def main(args=None):
+@click.option(
+    "-p",
+    "--path",
+    type=str,
+    help="Path to the folder you what to peform the action on.",
+)
+def main(path=None):
     """Console script for slugifile."""
-    click.echo("Replace this message by putting your code into "
-               "slugifile.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    click.echo("Processing: {}".format(path))
+    click.echo()
+    result = slugifile_directory(path)
+
+    if (
+        "success" in result
+        and "messages" in result
+        and result["success"]
+        and len(result["messages"])
+    ):
+        for message in result["messages"]:
+            click.echo(message)
+
     return 0
 
 
