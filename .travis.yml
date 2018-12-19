@@ -17,13 +17,13 @@ script: tox
 # create the Github repo and add it to Travis, run the
 # following command to finish PyPI deployment setup:
 # $ travis encrypt --add deploy.password
-deploy:
-  provider: pypi
-  distributions: sdist bdist_wheel
-  user: codehutlabs
-  password:
-    secure: "j6stbjle0GJbf9Rg67ixoEXqxmF+qq6pEHri/asSjnAOThoNJQK9uNWewMlClAOJ/DjGFAJ9xZziMDK9C/ZNrglrhqcefG+eWrTqY3miSRDcw0fTwGj+f4ad8Dgyd15w8g15B4MtKRbECSyKH7v4gSot5ei6M2oscpzT+KHG8/pA0syRX0RPAz+7/ICbOmiDOJuRXtlhF4CKYJVTrpg2NHsxMLSBXHlqqDBYYQGFyc/Y1GCR4IumRhFzglIBwZDNgTo+5QPNROY00HipXsJ4I6rNqKSM0SUh3VLLTlYSF/4eXk0OT9x1K0t8NSuhpaG0SoVfiuRixUPj3bc80U60gvM5rwHVS4AUzSc06T9LiW0xYLFnDySpdvbpsAqvl6BQLbmz3PE2g80k80z18BkuosHet0FqBoOlsDXnDA2mReeMMyWXhxC4foBGWUvGPJdix2/Z/yKJdxDvDsEPpSRoIu7bxVK8UAYo81gEufyYcE1VLir/tpVXac29V+W7ISw4xQcux5WS/SEXYQ6rpPvEREvGPcAqMiZ78jv0ADI8E1iaV1FIBWVfoMTFY+EkQAYLJGm15MBTe7pPl3I4h9Vmroz7mlsbapCKGpn18rsW9/zqogZeoF0AkocoX/F8RVQt21xwaZxmwmcpHUFqnJEEnvGPgtG8Y1tJcjG4as8dNiw="
-  on:
-    tags: true
-    repo: codehutlabs/slugifile
-    python: 3.6
+#deploy:
+#  provider: pypi
+#  distributions: sdist bdist_wheel
+#  user: codehutlabs
+#  password:
+#    secure: "j6stbjle0GJbf9Rg67ixoEXqxmF+qq6pEHri/asSjnAOThoNJQK9uNWewMlClAOJ/DjGFAJ9xZziMDK9C/ZNrglrhqcefG+eWrTqY3miSRDcw0fTwGj+f4ad8Dgyd15w8g15B4MtKRbECSyKH7v4gSot5ei6M2oscpzT+KHG8/pA0syRX0RPAz+7/ICbOmiDOJuRXtlhF4CKYJVTrpg2NHsxMLSBXHlqqDBYYQGFyc/Y1GCR4IumRhFzglIBwZDNgTo+5QPNROY00HipXsJ4I6rNqKSM0SUh3VLLTlYSF/4eXk0OT9x1K0t8NSuhpaG0SoVfiuRixUPj3bc80U60gvM5rwHVS4AUzSc06T9LiW0xYLFnDySpdvbpsAqvl6BQLbmz3PE2g80k80z18BkuosHet0FqBoOlsDXnDA2mReeMMyWXhxC4foBGWUvGPJdix2/Z/yKJdxDvDsEPpSRoIu7bxVK8UAYo81gEufyYcE1VLir/tpVXac29V+W7ISw4xQcux5WS/SEXYQ6rpPvEREvGPcAqMiZ78jv0ADI8E1iaV1FIBWVfoMTFY+EkQAYLJGm15MBTe7pPl3I4h9Vmroz7mlsbapCKGpn18rsW9/zqogZeoF0AkocoX/F8RVQt21xwaZxmwmcpHUFqnJEEnvGPgtG8Y1tJcjG4as8dNiw="
+#  on:
+#    tags: true
+#    repo: codehutlabs/slugifile
+#    python: 3.6
