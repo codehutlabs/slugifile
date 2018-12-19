@@ -1,4 +1,4 @@
-Welcome to slugifile's documentation!
+Welcome to SlugiFile's documentation!
 ======================================
 
 .. toctree::

@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use slugifile in a project::
+To use SlugiFile in a project::
 
     import slugifile

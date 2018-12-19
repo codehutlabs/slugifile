@@ -8,13 +8,13 @@ Installation
 Stable release
 --------------
 
-To install slugifile, run this command in your terminal:
+To install SlugiFile, run this command in your terminal:
 
 .. code-block:: console
 
     $ pip install slugifile
 
-This is the preferred method to install slugifile, as it will always install the most recent stable release.
+This is the preferred method to install SlugiFile, as it will always install the most recent stable release.
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -26,7 +26,7 @@ you through the process.
 From sources
 ------------
 
-The sources for slugifile can be downloaded from the `Github repo`_.
+The sources for SlugiFile can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 

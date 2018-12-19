@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'slugifile'
+project = u'SlugiFile'
 copyright = u"2018, Robert Kuzma"
 author = u"Robert Kuzma"
 
@@ -129,7 +129,7 @@ latex_elements = {
 # [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'slugifile.tex',
-     u'slugifile Documentation',
+     u'SlugiFile Documentation',
      u'Robert Kuzma', 'manual'),
 ]
 
@@ -140,7 +140,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'slugifile',
-     u'slugifile Documentation',
+     u'SlugiFile Documentation',
      [author], 1)
 ]
 
@@ -152,7 +152,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'slugifile',
-     u'slugifile Documentation',
+     u'SlugiFile Documentation',
      author,
      'slugifile',
      'One line description of project.',
